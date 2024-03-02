@@ -1,0 +1,717 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.topbar
+{
+   height:20px;
+   background-color: black;
+   color: white;
+   display:flex;
+   gap:10px;
+  justify-content: right;
+  
+  
+  
+}
+.topbar a 
+{
+    text-decoration: none;
+    color:white;
+
+}
+.bgcolor{
+    background-color: black;
+}
+.topbar .icons
+{
+    display:flex;
+    gap:10px;
+    text-align: center;
+    margin-right: 50px;;
+}
+header {
+    width: 90%;
+    height: 70px;
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    margin: auto;
+}
+header nav a
+{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+} 
+
+header .spacebar
+{
+    margin:20px;
+    display: block;
+}
+header .handburger
+{
+    color:white;
+    display:none;
+    font-size: 30px;
+}  
+
+main .section1
+{
+   text-align: center;
+   margin-top: 10px;
+   
+}
+main .section1 .cards
+{
+    display:flex;
+   gap:10px;
+   margin-left: 20px;
+   margin-top:10px;
+}
+main .section1 .cards .card1 ,.card2 ,.card3 ,.card4
+{
+  width: 24%;  
+  height: 400px;
+ 
+}
+
+main .section1 .cards .card1 .img1
+{
+   
+    width:100%;
+    height:350px;
+    background-image: url("image/Rectangle\ 456\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .section1 .cards .card2 .img2
+{
+   
+    width:100%;
+    height:350px;
+    background-image: url("image/Rectangle\ 457.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .section1 .cards .card3 .img3
+{
+   
+    width:100%;
+    height:350px;
+    background-image: url("image/Rectangle\ 458.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .section1 .cards .card4 .img4
+{
+   
+    width:100%;
+    height:350px;
+    background-image: url("image/Rectangle\ 459.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .shop
+{
+    margin-top: 20px;
+ font-family:Arial, Helvetica, sans-serif;
+}
+main .shop .by{
+    margin-top: 10px;
+    display:flex;
+    gap:10px;
+    justify-content: center;
+}
+main .shop .by .by1 ,.by2 ,.by3
+{
+    width: 30%;
+    height: auto;
+    border: 1px solid rgb(219, 223, 227);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+main .shop .by .by1 .img5
+{
+    width:100%;
+    height:370px;
+    background-image: url("image/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .shop .by .by2 .img6
+{
+    width:100%;
+    height:370px;
+    background-image: url("image/Rectangle\ 467\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .shop .by .by3 .img7
+{
+    width:100%;
+    height:370px;
+    background-image: url("image/Rectangle\ 468\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .shop .by .by1 .tet1
+{
+    padding: 20px;
+}
+main .shop .by .by2 .tet2
+{
+    padding-top: 20px;
+}
+main .shop .by .by3 .tet3
+{
+    padding-top: 20px;
+}
+main .shop .by .by1 .tet1 button
+{
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+   
+}
+main .shop .by .by2 .tet2 button
+{
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+   
+}
+main .shop .by .by3 .tet3 button
+{
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+   
+}
+
+main .shop .buy{
+    margin-top: 10px;
+    display:flex;
+    gap:10px;
+    justify-content: center;
+}
+main .shop .buy .buy1 ,.buy2 ,.buy3
+{
+    width: 30%;
+    height: auto;
+    border:1px solid rgb(219, 223, 227);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+main .shop .buy .buy1 .img8
+{
+    width:100%;
+    height:370px;
+    background-image: url("image/Rectangle\ 471\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .shop .buy .buy2 .img9
+{
+    width:100%;
+    height:370px;
+    background-image: url("image/Rectangle\ 470\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .shop .buy .buy3 .img10
+{
+    width:100%;
+    height:370px;
+    background-image: url("image/Rectangle\ 469\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .shop .buy .buy1 .tet4
+{
+    padding: 20px;
+}
+main .shop .buy .buy2 .tet5
+{
+    padding-top: 20px;
+}
+main .shop .buy .buy3 .tet6
+{
+    padding-top: 20px;
+}
+main .shop .buy .buy1 .tet4 button
+{
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+   
+}
+main .shop .buy .buy2 .tet5 button
+{
+    text-decoration: none;
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+   
+}
+main .shop .buy .buy3 .tet6 button
+{
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+   
+}
+main .sell
+{
+    
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+main .sell .best
+{
+    margin-top: 20px;
+    display: flex;
+    gap:40px;
+   justify-content: center;
+}
+main .sell .best .sell1 ,.sell2
+{
+    width:45%;
+    height:500px;
+    background-color: black;
+    color:white;
+}
+
+main .sell .best .sell1 .img11
+{
+    width:100%;
+    height:400px;
+    background-image: url("image/Rectangle\ 476\ \(1\).png");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+main .sell .best .sell2 .img12
+{
+    width:100%;
+    height:400px;
+    background-image: url("image/Rectangle\ 477.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+main .sell .cat 
+{
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+main .sell .cat .book1 ,.book2
+{
+    width:45%;
+    height:500px;
+    background-color: black;
+    color:white;
+
+}
+
+main .sell .cat .book1 .img13
+{
+    width:100%;
+    height:400px;
+    background-image: url("image/Rectangle\ 478\ \(1\).png");
+    background-repeat:no-repeat;
+    background-size:cover;  
+}
+main .sell .cat .book2 .img14
+{
+    width:100%;
+    height:400px;
+    background-image: url("image/Rectangle\ 482\ \(1\).png");
+    background-repeat:no-repeat;
+    background-size:cover;  
+}
+main .ico .log 
+{
+   display: flex;
+   gap:30px;
+   justify-content: space-around;
+   padding-left: 80px;
+   text-align: center;
+  
+}
+main .ico .log .log1,.log2,.log3
+{
+   
+    margin-top: 50px;
+    
+    font-size: 90px;
+  
+}
+main .ico .log  .off1,.off2,.off3
+{
+    font-size: 40px;
+}
+main .t{
+    margin-top: 50px;
+    width:100%;
+    height:auto;
+    /* background-color: black; */
+    margin-right: 20px;
+    margin-left: 20px;
+    color:black;
+    text-align: center;
+    }
+
+    .section{
+        padding: 50px 0px;
+    }
+main .t .t1
+{
+    width: 90%;
+    height:auto;
+   
+    margin-left: 10px;
+    justify-content: space-around;
+    margin-left: 70px;
+}
+main .t .t1 .img24
+{
+    width:97.5;
+    height:300px;
+    background-image: url("https://www.fabja.com/pub/media/codazon/slideshow/cache/1280x500/n/e/new_arrivals_dresses_online.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+
+   
+}
+footer .foot 
+{
+    width: 100%;
+    /* height: 250px; */
+    background-color: black;
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+footer .foot .foot1 ,.foot2 ,.foot3 ,.foot4
+{
+    color:rgb(212, 207, 207);
+    
+   
+}
+footer .foot .foot1 .link1 a
+{
+    color:rgb(212, 207, 207);
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+   
+  
+}
+footer .foot .foot2 .link2 a
+{
+    color:rgb(212, 207, 207);
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+  
+}
+footer .foot .foot3 .link3 a
+{
+    color:rgb(212, 207, 207);
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+  
+}
+footer .foot .foot4 .link4 a
+{
+    color:rgb(212, 207, 207);
+    display: block;
+    text-decoration: none;
+   padding-top: 10px;
+}
+footer .foot .foot1 .link1 a:hover
+{
+   text-decoration:underline;
+  
+}
+footer .foot .foot2 .link2 a:hover
+{
+   text-decoration:underline;
+  
+}
+footer .foot .foot3 .link3 a:hover
+{
+   text-decoration:underline;
+  
+}
+footer .foot .foot4 .link4 a:hover
+{
+   text-decoration:underline;
+  
+}
+footer .line1
+{
+    color: rgb(249, 249, 249);
+    background-color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+footer .line2
+{
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:500px)
+{
+
+header nav a
+{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    display: none;
+    
+} 
+header .spacebar
+{
+    margin:20px;
+    display: none;
+}  
+header .handburger
+{
+    color:white;
+    display:block;
+    font-size: 30px;
+}  
+main .section1 .cards
+{
+    display:flex;
+    flex-direction: column;
+   gap:10px;
+   margin-left: 20px;
+   margin-top:10px;
+}
+main .section1 .cards .card1 ,.card2 ,.card3 ,.card4
+{
+  width: 100%;  
+  height: 400px;
+ 
+}
+main .shop .by{
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+}
+main .shop .by .by1 ,.by2 ,.by3
+{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(219, 223, 227);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+main .shop .buy{
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+}
+main .shop .buy .buy1 ,.buy2 ,.buy3
+{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(219, 223, 227);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+main .sell
+{
+    
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+main .sell .best
+{
+    margin-top: 20px;
+    display: flex;
+    gap:40px;
+   justify-content: center;
+   display:flex;
+   flex-direction: column;
+}
+main .sell .best .sell1 ,.sell2
+{
+    width:100%;
+    height:500px;
+    background-color: black;
+    color:white;
+}
+
+main .sell .best .sell1 .img11
+{
+    width:100%;
+    height:400px;
+    background-image: url("image/Rectangle\ 476\ \(1\).png");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+main .sell .best .sell2 .img12
+{
+    width:100%;
+    height:400px;
+    background-image: url("image/Rectangle\ 477.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+main .sell .cat 
+{
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+main .sell .cat .book1 ,.book2
+{
+    width:100%;
+    height:500px;
+    background-color: black;
+    color:white;
+
+}
+
+main .sell .cat .book1 .img13
+{
+    width:100%;
+    height:400px;
+    background-image: url("image/Rectangle\ 478\ \(1\).png");
+    background-repeat:no-repeat;
+    background-size:cover;  
+}
+main .sell .cat .book2 .img14
+{
+    width:100%;
+    height:400px;
+    background-image: url("image/Rectangle\ 482\ \(1\).png");
+    background-repeat:no-repeat;
+    background-size:cover;  
+}
+main .ico .log 
+{
+   display: flex;
+    flex-direction: column;
+   gap:30px;
+   justify-content: space-around;
+   padding-left: 80px;
+   text-align: center;
+  
+}
+main .ico .log .log1,.log2,.log3
+{
+   
+    margin-top: 50px;
+    
+    font-size: 90px;
+  
+}
+main .ico .log  .off1,.off2,.off3
+{
+    font-size: 40px;
+}
+}
+header a
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* new css */
+.card1 h5,.card2 h5,.card3 h5,.card4 h5{
+    margin: 15px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card1 h6,.card2 h6,.card3 h6,.card4 h6{
+    margin: 5px 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.tet1 h5,.tet2 h5,.tet3 h5,.tet4 h5,.tet5 h5,.tet6 h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+.tet1 h4,.tet2 h4,.tet3 h4,.tet4 h4,.tet5 h4,.tet6 h4{
+    margin: 5px 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.shop h1{
+    font-size: 40px;
+    margin: 15px 0px;
+}
+.t{
+    font-size: 30px;
+    margin: 15px 0px;
+}
+.section1 h1{
+    font-size: 35px;
+    margin: 15px 0px;
+}
+.mt-1{
+    margin-top: 15px;
+}
+.off1 h6,.off2 h6,.off3 h6{
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.foot1 h3,.foot2 h3,.foot3 h3,.foot4 h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
